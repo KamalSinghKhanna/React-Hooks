@@ -1,0 +1,286 @@
+h4 strong{
+    color: #47525e;
+    font-weight: bold;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0);
+    line-height: 1.3em;
+    text-transform: none;
+    font-size: 18px;
+    text-align: left;
+}
+
+.item p{
+    color: #8793b0;
+    font-weight: normal;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0);
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: 0px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.spots{
+    height: 417px;
+    width: 936px;
+    color: white;
+    background: linear-gradient(90deg, #f180af 0%, #8793B0 35%, #63b3ed 100%);
+}
+
+
+.spots  p{
+    font-size: 24px !important;
+    font-family: "Lato";
+    color: #ffffff;
+    font-weight: normal;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0);
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.arrow{
+    height: 70px;
+    width: 69px;
+}
+
+.check-img{
+    height: 32px;
+
+}
+
+/* .check-box{
+    width: 896px;
+    height: 36px;
+} */
+
+.check-box-text{
+    font-size: 16px !important;
+    font-family: "Lato";
+    color: #ffffff;
+    font-weight: normal;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0);
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.work-heading{
+    font-size: 23px !important;
+    font-weight: bolder;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0);
+    line-height: 1.3em;
+    text-transform: none;
+    letter-spacing: 0px;
+    text-align: center;
+    background: -webkit-linear-gradient(#db3278, #5cb4f3);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.visit-section{
+    padding: 12px 190px 12px 190px;
+}
+
+
+.price{
+    width: 400px;
+    height: 55px;
+    margin: 20px 30px 0 30px;
+
+}
+
+
+.spots2{
+    height: 450px;
+    width: 936px;
+    color: white;
+    background: linear-gradient(90deg, #f180af 0%, #8793B0 35%, #63b3ed 100%);
+}
+
+.carousel-item{
+    position: none !important;
+}
+
+.list{
+      font-size: 0;
+      line-height: 0;
+      display: block;
+      width: 20px;
+      height: 20px;
+      padding: 5px;
+      cursor: pointer;
+      color: transparent;
+      border: 0;
+      outline: 0;
+      background: gray;
+      border-radius: 50%;
+    }
+
+
+.list:hover{
+    background-color: black;
+}
+
+.faq-question{
+    padding: 30px 200px 0px 200px;
+}
+
+i{
+    color: #FA70AA;
+    cursor: pointer;
+    font-size: 54px;
+   
+}
+
+.faq-question span{
+    font-family: lato;
+    color: #47525E;
+    font-size: 1.2rem;
+    text-align: left;
+    cursor: pointer;
+}
+
+.consult-img{
+    height: 351px;
+}
+
+.spots3{
+    height: 351px;
+    width: 936px;
+    background: linear-gradient(90deg, #c1cbe2 0%, #9baace 35%, #ecb5cc 100%);
+}
+
+.spots3 .p-tag1 {
+    font-size: 20px !important;
+    font-family: "Lato";
+    font-weight: normal;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0);
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+.spots3 .p-tag-2   {
+    font-size: 15px !important;
+    font-family: "Lato";
+    font-weight: normal;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0);
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: 0px;
+   
+}
+
+.spots3 button{
+    width: 500px;
+}
+
+.maps{
+    height: 50vh;
+    width: 100%;
+}
+.maps iframe{
+    height: 90%;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .item{
+        flex-direction: column;
+    }
+    .spots{
+        width: 350px;
+        height: 500px;
+        align-items: center;
+        justify-content: center;
+    }
+    .spots h1 strong{
+        font-size: 30px !important;
+        
+    }
+    .spots h1{
+        text-align: center;
+    }
+    .spots p{
+        font-size: 15px !important;
+    }
+    .arrow{
+        display: none;
+    }
+    .spots button{
+        width: 340px;
+    }
+    .check-img{
+        width: 335px;
+    }
+
+    .work-section h1{
+        text-align: center;
+        
+    }
+
+    .work-section h1 strong{
+        font-size: 30px !important;
+    }
+    .visit-section {
+        padding: 0;
+    }
+    .spots2{
+        width: 350px;
+        height: 520px;
+        align-items: center;
+        justify-content: center;
+    }
+    .spots2 h1{
+        text-align: center;
+    }
+    .offer-item{
+        margin: 0 !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .offer-item div{
+        margin-top: 15px;
+    }
+    .raitng-2 h1 strong{
+        font-size: 30px !important;
+    }
+    .carousel-item{
+        flex-direction: column;
+    }
+    .carousel-item .div-2{
+        display: none;
+    }
+    .faq{
+        text-align: center;
+    }
+    .faq-question{
+        padding: 0 30px;
+    }
+    .faq-question i{
+        margin-left: 15px;
+    }
+    .consult-img{
+        width: 443px;
+    }
+    .spots3{
+        width: 450px;
+        height: 520px;
+        align-items: center;
+        justify-content: center;
+    }
+    .spots3 button{
+        width: 400px;
+        margin-right: 30px;
+    }
+    .address{
+        text-align: center;
+        margin-top: 20px;
+    }
+}
