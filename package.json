@@ -1,5 +1,5 @@
 {
-  "homepage": "https://KamalSinghKhanna.github.io/clone",
+  "homepage": "https://KamalSinghKhanna.github.io/React-Hooks",
   "name": "clone",
   "version": "0.1.0",
   "private": true,
@@ -11,7 +11,8 @@
     "bootstrap": "^5.2.0",
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.4.0",
+    "react-bootstrap": "^2.5.0",
+    "react-bootstrap-carousel": "^4.1.1",
     "react-dom": "^18.2.0",
     "react-elastic-carousel": "0.11.5",
     "react-scripts": "5.0.1",

@@ -1,5 +1,6 @@
 import { React, useState } from "react";
-import "./Experince.css";
+import "./Exeprince.css";
+import {Carousel} from 'react-bootstrap';
 import "./Header.css";
 import image from "./image.svg";
 // import check from './check2.svg'
@@ -209,7 +210,7 @@ function Exeprence() {
       </div>
 
       <section className="raitng-2 container testimonial-section d-flex flex-column  align-items-center mb-3">
-        <div className="text-center">
+        <div className="text-center mb-5">
           <h1>
             <strong>What Our Charlotte Patients Say</strong>
           </h1>
@@ -219,71 +220,72 @@ function Exeprence() {
         </div>
         {/* caraousl */}
 
-        <div
-          id="carouselExampleFade"
-          className="carousel slide carousel-fade my-5"
-          data-bs-ride="carousel"
-        >
-          <div className="carousel-inner container">
-            <div className="carousel-item container active d-flex">
-              <div className=" container mx-3">
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
+        <Carousel indicators={true}
+        infinite={true}
+    >
+      <Carousel.Item interval={2000}>
+       <div className='d-flex'>
+        <div class=" container mx-3">
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
                 <p>
                   “Awesome customer service! Very friendly and cares about the
                   comfort of the patients. Dr. Haas is very detailed and
                   explains everything and ask patient
                 </p>
               </div>
-              <div className=" container mx-3 div-2">
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
+              <div class=" container mx-3 div-2">
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
                 <p>
                   “They are great!! The nurses are so sweet and diligent. Dr.
                   Haas is amazing and really tries to get the best care for you
                   as an individual. They don’t
                 </p>
-              </div>
-            </div>
-            <div className="carousel-item d-flex">
-              <div className=" container mx-3">
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
+              </div></div>
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <div className='d-flex'>
+        <div class=" container mx-3">
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
 
                 <p>
                   The facility is very clean and the overall design and ambience
                   of the space is very calming and peaceful.
                 </p>
               </div>
-              <div className=" container mx-3 div-2">
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
+              <div class=" container mx-3 div-2">
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
 
                 <p>
                   The facility is very clean and the overall design and ambience
                   of the space is very calming and peaceful.
                 </p>
               </div>
-            </div>
-            <div className="carousel-item d-flex">
-              <div className=" container mx-3">
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <div className='d-flex'>
+        <div class=" container mx-3">
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
 
                 <p>
                   “I feel so fortunate to have discovered Dr. Haas and his
@@ -291,56 +293,23 @@ function Exeprence() {
                   severe fatigue and memory
                 </p>
               </div>
-              <div className=" container mx-3 div-2">
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
-                <span className="fa fa-star checked mx-0.5 mx-1"></span>
+              <div class=" container mx-3 div-2">
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
+                <span class="fa fa-star checked mx-0.5 mx-1"></span>
 
                 <p>
                   The facility is very clean and the overall design and ambience
                   of the space is very calming and peaceful.
                 </p>
               </div>
-            </div>
-          </div>
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleFade"
-            data-bs-slide="prev"
-          >
-            <span
-              className="carousel-control-prev-icon "
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden text-dark">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleFade"
-            data-bs-slide="next"
-          >
-            <span
-              className="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Next</span>
-          </button>
         </div>
+      </Carousel.Item>
+    </Carousel>
 
-        <ul className="container align-items-center justify-content-center d-flex">
-          <li className="mx-2 list"></li>
-          <li className="mx-2 list"></li>
-          <li className="mx-2 list"></li>
-          <li className="mx-2 list"></li>
-          <li className="mx-2 list"></li>
-          <li className="mx-2 list"></li>
-          <li className="mx-2 list"></li>
-        </ul>
-        <button className="my-3">Join the VYVE family</button>
+        <button className="my-5">Join the VYVE family</button>
       </section>
 
       <div className="container faq testimonial-section d-flex flex-column justify-content-center align-items-center">
@@ -350,7 +319,7 @@ function Exeprence() {
         <p>
           And because
           <strong>
-             we want you to feel 100% confident in your investment,
+            we want you to feel 100% confident in your investment,
           </strong>
         </p>
 
